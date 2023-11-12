@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Yingzhu Liu's Website"
 title_separator          : "-"
-name                     : &name "Yingzhu Liu (刘映竹)" <br /> "Peking University"
+name                     : &name "Yingzhu Liu" 
 description              : &description "personal description"
 url                      : https://Yingzhu-Liu-Star.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yingzhu Liu"
+  name             : "Yingzhu Liu (刘映竹)"
   avatar           : "profile.png"
-  bio              : "Ph.D. Student"
+  bio              : "Ph.D. Student" <br /> "Peking University"
   location         : "Beijing, China"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
