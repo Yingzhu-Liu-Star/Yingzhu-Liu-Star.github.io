@@ -7,8 +7,4 @@ venue: "Peking University, College of Engineering"
 date: 2022-09-19
 location: "Beijing, China"
 ---
-
-
 Teaching Assistant
-======
- * 
