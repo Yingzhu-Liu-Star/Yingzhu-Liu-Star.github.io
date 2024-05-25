@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yingzhu Liu"
+title: "Yingzhu Liu (刘映竹)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
