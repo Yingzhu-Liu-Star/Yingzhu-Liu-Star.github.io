@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: ture
+author_profile: true
 ---
 
 {% if author.googlescholar %}
@@ -14,7 +14,9 @@ author_profile: ture
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
+{% for post in site.preprint reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 ## Preprint
 {% for post in site.preprint reversed %}
