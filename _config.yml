@@ -208,15 +208,15 @@ collections:
   preprint:
     output: true
     permalink: /publications/preprint/:path/
-    folder: _publications/_preprint
+    # folder: _publications/_preprint
   journal:
     output: true
     permalink: /publications/journal/:path/
-    folder: _publications/_journal
+    # folder: _publications/_journal
   conference:
     output: true
     permalink: /publications/conference/:path/
-    folder: _publications/_conference
+    # folder: _publications/_conference
   research:
     output: true
     permalink: /:collection/:path/
