@@ -15,14 +15,17 @@ author_profile: false
   {% include archive-single.html %}
 {% endfor %}
 
+
 ## Preprint
 {% for post in site.preprint reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
 ## Journal
 {% for post in site.journal reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
 ## Conference
 {% for post in site.conference reversed %}
   {% include archive-single.html %}

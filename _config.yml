@@ -190,18 +190,33 @@ collections:
   # conference:
   #   output: true
   #   permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /publications/:path/
+  # preprint:
+  #   output: true
+  #   permalink: /publications/preprint/:path/
+  # journal:
+  #   output: true
+  #   permalink: /publications/journal/:path/
+  # conference:
+  #   output: true
+  #   permalink: /publications/conference/:path/
   publications:
     output: true
-    permalink: /publications/:path/
+    permalink: /:collection/:path/
   preprint:
     output: true
     permalink: /publications/preprint/:path/
+    folder: _publications/_preprint
   journal:
     output: true
     permalink: /publications/journal/:path/
+    folder: _publications/_journal
   conference:
     output: true
     permalink: /publications/conference/:path/
+    folder: _publications/_conference
   research:
     output: true
     permalink: /:collection/:path/
