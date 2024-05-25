@@ -1,6 +1,6 @@
 ---
 title: "Saddle Flow Dynamics"
-excerpt: "Adapting the dynamical system theory to explore natural understandings of optimization algorithms.<br/><img src='/images/research_saddle.png'>"
+excerpt: "Adapting the dynamical system theory to explore natural understandings of optimization algorithms.<br/><center><img src='/images/research_saddle.png' width='500' height='300'></center>"
 collection: research
 share: false
 ---
