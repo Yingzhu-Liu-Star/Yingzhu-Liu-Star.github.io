@@ -183,11 +183,8 @@ collections:
     permalink: /:collection/:path/
   preprint:
     output: true
-    permalink: /:collection/:path/
-  # preprint:
-  #   output: true
-  #   permalink: /publications/preprint/:path/
-  #   folder: _publications/_preprint
+    permalink: /publications/preprint/:path/
+    folder: _publications/_preprint
   journal:
     output: true
     permalink: /publications/journal/:path/
