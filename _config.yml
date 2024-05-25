@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yingzhu Liu (刘映竹)"
   avatar           : "profile.png"
-  bio              : "Ph.D. Student" <br /> "Peking University"
+  bio              : "Ph.D. Student @ Peking University"
   location         : "Beijing, China"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -197,7 +197,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -215,7 +215,7 @@ defaults:
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _publications
@@ -224,16 +224,16 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
-  # _portfolio
+  # _reseach
   - scope:
       path: ""
-      type: portfolio
+      type: reseach
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
   # _talks
@@ -242,7 +242,7 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
+      author_profile: false
       share: true
 
 # Sass/SCSS
