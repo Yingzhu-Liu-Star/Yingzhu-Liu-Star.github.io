@@ -204,7 +204,7 @@ collections:
   #   permalink: /publications/conference/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /publications/:path/
   preprint:
     output: true
     permalink: /publications/preprint/:path/
