@@ -181,6 +181,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  preprint:
+    output: true
+  journal:
+    output: true
+  conference:
+    output: true
   research:
     output: true
     permalink: /:collection/:path/
@@ -197,7 +203,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: true
       share: true
@@ -215,7 +221,7 @@ defaults:
       type: teaching
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
       comments: true
   # _publications
@@ -224,7 +230,7 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
       comments: true
   # _research
@@ -233,7 +239,7 @@ defaults:
       type: research
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
       comment: true
   # _talks
@@ -242,7 +248,7 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: false
+      author_profile: true
       share: true
 
 # Sass/SCSS

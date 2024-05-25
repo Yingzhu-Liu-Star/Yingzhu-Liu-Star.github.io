@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% if author.googlescholar %}
@@ -16,14 +16,14 @@ author_profile: true
 {% endfor %}
 
 ## Preprint
-{% for post in site.publications.preprint reversed %}
+{% for post in site.preprint reversed %}
   {% include archive-single.html %}
 {% endfor %}
 ## Journal
-{% for post in site.publications.journal reversed %}
+{% for post in site.journal reversed %}
   {% include archive-single.html %}
 {% endfor %}
 ## Conference
-{% for post in site.publications.conference reversed %}
+{% for post in site.conference reversed %}
   {% include archive-single.html %}
 {% endfor %}
