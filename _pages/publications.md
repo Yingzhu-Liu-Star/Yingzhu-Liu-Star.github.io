@@ -15,8 +15,15 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-# Preprint
-
-# Journal
-
-# Conference
+## Preprint
+{% for post in site.publications.preprint reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+## Journal
+{% for post in site.publications.journal reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+## Conference
+{% for post in site.publications.conference reversed %}
+  {% include archive-single.html %}
+{% endfor %}
