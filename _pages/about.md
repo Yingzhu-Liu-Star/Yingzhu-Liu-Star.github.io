@@ -14,7 +14,7 @@ I'm a second-year Ph.D. student in Dynamical Systems and Control with the Depart
 
 ---
 # Research Interests
-My current research interests include saddle flow dynamics, distributed optimization and reinforcement learning.
+My current research interests include saddle flow dynamics, optimization, control theory and reinforcement learning.
 
 ---
 # News
