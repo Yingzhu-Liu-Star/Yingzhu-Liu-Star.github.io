@@ -22,4 +22,4 @@ author_profile: true
 
 
 ## Conference
-  1. **Y. Liu**, E. Mallada, Z. Li, and P. You, “Accelerated Saddle Flow Dynamics for Bilinearly Coupled Minimax Problems,” in _63rd IEEE Conference on Decision and Control (CDC)_, 2024. [\[ Download PDF\]](http://yingzhu-liu-star.github.io/files/2024-Preprint-ASF.pdf)
+  1. **Y. Liu**, E. Mallada, Z. Li, and P. You, “Accelerated Saddle Flow Dynamics for Bilinearly Coupled Minimax Problems,” in _63rd IEEE Conference on Decision and Control (CDC)_, 2024. [\[Download PDF\]](http://yingzhu-liu-star.github.io/files/2024-Preprint-ASF.pdf)
