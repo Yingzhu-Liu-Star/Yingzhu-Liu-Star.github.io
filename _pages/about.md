@@ -18,4 +18,4 @@ My current research interests include saddle flow dynamics, optimization, contro
 
 ---
 # News
-**July 24** One paper _Accelerated Saddle Flow Dynamics for Bilinearly Coupled Minimax Problems_ is accepted to 63rd IEEE Conference on Decision and Control (CDC). Let’s meet in Milan!
+**July 24, 2024** One paper _Accelerated Saddle Flow Dynamics for Bilinearly Coupled Minimax Problems_ is accepted to 63rd IEEE Conference on Decision and Control (CDC). Let’s meet in Milan!
