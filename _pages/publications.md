@@ -17,9 +17,9 @@ author_profile: true
 
 ## Preprint
   1. P. You, **Y. Liu**, and E. Mallada. “A First-Principles Analysis of Saddle Flow Dynamics: Stability and Algorithm Design”. [\[Download PDF\]](http://yingzhu-liu-star.github.io/files/2024-Preprint-SFD-Jounral.pdf)
-  2. **Y. Liu**, E. Mallada, Z. Li, and P. You, Accelerated Saddle Flow Dynamics for Bilinearly Coupled Minimax Problems, 2024, submitted.[\[ Download PDF\]](http://yingzhu-liu-star.github.io/files/2024-Preprint-ASF.pdf)
 
 ## Journal
 
 
 ## Conference
+1. **Y. Liu**, E. Mallada, Z. Li, and P. You, “Accelerated Saddle Flow Dynamics for Bilinearly Coupled Minimax Problems,” in _63rd IEEE Conference on Decision and Control (CDC)_, 2024. [\[ Download PDF\]](http://yingzhu-liu-star.github.io/files/2024-Preprint-ASF.pdf)
