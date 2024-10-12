@@ -12,5 +12,5 @@ nav_order: 6
 Teaching Assistant at Yuanpei College, Fall 2024
 
 ###  Theoretical Mechanics, Peking University
-Teaching Assistant at Yuanpei College, Fall 2023
-Teaching Assistant at Yuanpei College, Fall 2022
+<p>Teaching Assistant at Yuanpei College, Fall 2023</p>
+<p>Teaching Assistant at Yuanpei College, Fall 2022</p>
