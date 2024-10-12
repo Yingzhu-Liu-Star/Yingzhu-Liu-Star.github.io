@@ -9,7 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p style="text-align: center;">Beijing, China, 2023</p>
+    <div style="text-align: center;">
+      <img src="prof_pic.jpg" style="border-radius: 50%; display: block; margin: 0 auto;" alt="Profile Picture" />
+      <p>Beijing, China</p>
+    </div>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
