@@ -10,8 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <div style="text-align: center;">
-      <img src="prof_pic.jpg" style="border-radius: 50%; display: block; margin: 0 auto;" alt="Profile Picture" />
-      <p>Beijing, China</p>
+      <img src="prof_pic.jpg" style="border-radius: 50%; display: block; margin: 0 auto;" alt="Beijing, China" />
     </div>
 
 news: true # includes a list of news items
