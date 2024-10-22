@@ -5,7 +5,7 @@ date: 2024-10-22 21:00:00-0400
 description: An application of majorization. 
 tags: theory
 categories: Matrix Analysis
-type: blog
+type: "blog"
 related_posts: false
 toc:
   beginning: true
