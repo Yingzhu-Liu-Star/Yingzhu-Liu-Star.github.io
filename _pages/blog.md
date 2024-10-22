@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: Blog
-nav: true
+nav: false
 nav_order: 2
 pagination:
   enabled: true
@@ -29,13 +29,11 @@ pagination:
   </div>
   {% endif %}
 
-{% assign blog_posts = site.posts | where: "type", "blog" %}
-{% assign display_tags = blog_posts | map: "tags" | join: "," | split: "," | uniq %}
-{% if display_tags and display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
-      {% for tag in display_tags %}
+      {% for tag in site.display_tags %}
         <li>
           <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
         </li>
@@ -43,7 +41,7 @@ pagination:
           <p>&bull;</p>
         {% endunless %}
       {% endfor %}
-      {% if site.display_categories.size > 0 and display_tags.size > 0 %}
+      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
         <p>&bull;</p>
       {% endif %}
       {% for category in site.display_categories %}
@@ -58,7 +56,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" | where: "type", "blog" %}
+{% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -106,9 +104,9 @@ pagination:
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts | where: "type", "blog" %}
+      {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts | where: "type", "blog" %}
+      {% assign postlist = site.posts %}
     {% endif %}
 
     {% for post in postlist %}
@@ -196,6 +194,3 @@ pagination:
 {% endif %}
 
 </div>
-
-
-
