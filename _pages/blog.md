@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: Blog
-nav: false
+nav: true
 nav_order: 2
 pagination:
   enabled: true
@@ -56,7 +56,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "featured", "true" | where: "type", "blog" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -104,9 +104,9 @@ pagination:
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
+      {% assign postlist = paginator.posts | where: "type", "blog" %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = site.posts | where: "type", "blog" %}
     {% endif %}
 
     {% for post in postlist %}
@@ -194,3 +194,4 @@ pagination:
 {% endif %}
 
 </div>
+
